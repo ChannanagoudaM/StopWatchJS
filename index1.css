@@ -1,0 +1,147 @@
+body
+{
+padding: 0;
+margin: 0;
+background-color: rgba(242, 8, 8, 0.92);
+}
+.heade
+{
+    position: relative;
+    bottom: 280px;
+    left: -7px;
+    color: rebeccapurple;
+    text-decoration:underline;
+    font-size: 50px;
+}
+.a
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.b
+{
+    position: fixed;
+    height: 450px;
+    width: 700px;
+    border: 10px solid rgb(73, 3, 3);
+    border-radius: 100px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   background-color:rgb(181, 8, 8);
+    
+}
+.hour
+{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 50px;
+    background-color:grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.minute
+{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sec
+{
+    height: 100px;
+    width: 100px;
+    background-color:grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ht
+{
+    font-size: 60px;
+    position: relative;
+   top: -23px;
+   color:blue;
+}
+.mt
+{
+    font-size: 60px;
+   position: relative;
+   top: -23px;
+   color: blue;
+}
+.st
+{
+    font-size: 60px;
+    position: relative;
+    top: -23px;
+    color: blue;
+}
+.start
+{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: x-large;
+    transition: padding 1s;
+    color: blue;
+    border: transparent;
+    background-color:grey;
+}
+.stop
+{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: x-large;
+    transition: padding 1s;
+    color: blue;
+    border: transparent;
+    background-color:grey;
+}
+.stop:hover
+{
+padding: 25px;
+}
+.start:hover
+{
+padding: 25px;
+}
+.reset:hover
+{
+padding: 25px;
+}
+.reset
+{
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px; 
+    font-size: x-large;
+    transition: padding 1s;
+   color: blue;
+    border: transparent;
+    background-color:grey;
+}
+
